@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src: url("CursedTimer.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+h3 {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px 50px;
+    width: 600px;
+    background: #1B244A;
+    color: azure;
+}
+
+#timer {
+    font-family: "Cursed Timer";
+    background: #080001;
+    color: #F94F6D;
+    width: 100px;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem 1rem;
+}
+
+.score {
+    font-family: "Cursed Timer";
+    color: #F94F6D;
+    font-size: 10rem;
+    background: #080001;
+    padding: 3rem 3rem 0 0;
+    margin: 3rem 0;
+    width: 10rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.card button {
+    font-family: "Cursed Timer";
+    font-size: 1.5rem;
+}
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    color: #9AABD8;
+}
+
+#new-game {
+    font-size: 1.5rem;
+}
+
+.leader {
+    background: #F94F6D;
+    border-radius: 5px;
+    color: #1B244A;
+}
